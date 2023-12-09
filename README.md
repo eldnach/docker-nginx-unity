@@ -34,7 +34,7 @@ Print and copy the docker image ID using the `docker images` command:
   <img width="100%" src="https://github.com/eldnach/docker-nginx-unity/blob/main/.github/images/docker-images.png?raw=true" alt="Docker Images">
 </p>
 
-Run the docker container using the newly built docker image via the following command: `docker run -p 127.0.0.1:<host-port>:<container-port><image-id>`.
+Run the docker container using the newly built docker image via the following command: `docker run -p 127.0.0.1:<host-port>:<container-port> <image-id>`
 
 Once the docker container is running, open a web browser and navigate to `127.0.0.1:<host-port>` in order to launch the web player:
 <p align="center">
